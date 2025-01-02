@@ -1,3 +1,98 @@
+## v6.3.0
+
+This relesae includes a fix for filenames starting with `-` and a number of dependency updates. See below for details.
+
+ * [#593](https://github.com/tschaub/gh-pages/pull/593) - Handle filenames starting with a dash ([@sherlockdoyle](https://github.com/sherlockdoyle))
+ * [#591](https://github.com/tschaub/gh-pages/pull/591) - Bump commander from 11.1.0 to 13.0.0 ([@tschaub](https://github.com/tschaub))
+ * [#587](https://github.com/tschaub/gh-pages/pull/587) - Bump eslint-config-tschaub from 14.1.2 to 15.1.0 ([@tschaub](https://github.com/tschaub))
+ * [#590](https://github.com/tschaub/gh-pages/pull/590) - Bump mocha from 10.8.2 to 11.0.1 ([@tschaub](https://github.com/tschaub))
+ * [#583](https://github.com/tschaub/gh-pages/pull/583) - Bump mocha from 10.7.3 to 10.8.2 ([@tschaub](https://github.com/tschaub))
+ * [#584](https://github.com/tschaub/gh-pages/pull/584) - Bump chai from 4.3.10 to 4.5.0 ([@tschaub](https://github.com/tschaub))
+
+## v6.2.0
+
+Assorted dependency updates and a documentation change.
+
+ * [#581](https://github.com/tschaub/gh-pages/pull/581) - Update globby ([@tschaub](https://github.com/tschaub))
+ * [#578](https://github.com/tschaub/gh-pages/pull/578) - Bump sinon from 18.0.0 to 19.0.2 ([@tschaub](https://github.com/tschaub))
+ * [#579](https://github.com/tschaub/gh-pages/pull/579) - Bump eslint from 8.57.0 to 8.57.1 ([@tschaub](https://github.com/tschaub))
+ * [#576](https://github.com/tschaub/gh-pages/pull/576) - Bump async from 3.2.5 to 3.2.6 ([@tschaub](https://github.com/tschaub))
+ * [#573](https://github.com/tschaub/gh-pages/pull/573) - Bump mocha from 10.7.0 to 10.7.3 ([@tschaub](https://github.com/tschaub))
+ * [#571](https://github.com/tschaub/gh-pages/pull/571) - Bump mocha from 10.6.0 to 10.7.0 ([@tschaub](https://github.com/tschaub))
+ * [#569](https://github.com/tschaub/gh-pages/pull/569) - Bump mocha from 10.4.0 to 10.6.0 ([@tschaub](https://github.com/tschaub))
+ * [#563](https://github.com/tschaub/gh-pages/pull/563) - Bump braces from 3.0.2 to 3.0.3 ([@tschaub](https://github.com/tschaub))
+ * [#561](https://github.com/tschaub/gh-pages/pull/561) - Bump sinon from 17.0.2 to 18.0.0 ([@tschaub](https://github.com/tschaub))
+ * [#557](https://github.com/tschaub/gh-pages/pull/557) - Bump sinon from 17.0.1 to 17.0.2 ([@tschaub](https://github.com/tschaub))
+ * [#555](https://github.com/tschaub/gh-pages/pull/555) - Bump dir-compare from 4.2.0 to 5.0.0 ([@tschaub](https://github.com/tschaub))
+ * [#550](https://github.com/tschaub/gh-pages/pull/550) - Bump mocha from 10.3.0 to 10.4.0 ([@tschaub](https://github.com/tschaub))
+ * [#549](https://github.com/tschaub/gh-pages/pull/549) - Bump tmp from 0.2.1 to 0.2.3 ([@tschaub](https://github.com/tschaub))
+ * [#548](https://github.com/tschaub/gh-pages/pull/548) - Bump eslint from 8.56.0 to 8.57.0 ([@tschaub](https://github.com/tschaub))
+ * [#545](https://github.com/tschaub/gh-pages/pull/545) - Bump mocha from 10.2.0 to 10.3.0 ([@tschaub](https://github.com/tschaub))
+ * [#541](https://github.com/tschaub/gh-pages/pull/541) - fix: update instruction for next.js ([@multivoltage](https://github.com/multivoltage))
+
+## v6.1.1
+
+This release fixes an issue with the `--cname` option.
+
+ * [#535](https://github.com/tschaub/gh-pages/pull/535) - fix: Add missing cname option not passed to the config ([@WillBAnders](https://github.com/WillBAnders))
+ * [#539](https://github.com/tschaub/gh-pages/pull/539) - Bump eslint from 8.55.0 to 8.56.0 ([@tschaub](https://github.com/tschaub))
+
+## v6.1.0
+
+This release adds support for `--nojekyll` and `--cname` options.
+
+ * [#531](https://github.com/tschaub/gh-pages/pull/531) - Bump sinon from 15.2.0 to 17.0.1 ([@tschaub](https://github.com/tschaub))
+ * [#529](https://github.com/tschaub/gh-pages/pull/529) - Bump async from 3.2.4 to 3.2.5 ([@tschaub](https://github.com/tschaub))
+ * [#524](https://github.com/tschaub/gh-pages/pull/524) - Bump commander from 11.0.0 to 11.1.0 ([@tschaub](https://github.com/tschaub))
+ * [#530](https://github.com/tschaub/gh-pages/pull/530) - Bump eslint from 8.49.0 to 8.53.0 ([@tschaub](https://github.com/tschaub))
+ * [#520](https://github.com/tschaub/gh-pages/pull/520) - Bump chai from 4.3.8 to 4.3.10 ([@tschaub](https://github.com/tschaub))
+ * [#527](https://github.com/tschaub/gh-pages/pull/527) - Bump actions/setup-node from 3 to 4 ([@tschaub](https://github.com/tschaub))
+ * [#533](https://github.com/tschaub/gh-pages/pull/533) - Add --nojekyll and --cname options ([@tschaub](https://github.com/tschaub))
+ * [#512](https://github.com/tschaub/gh-pages/pull/512) - Bump dir-compare from 4.0.0 to 4.2.0 ([@tschaub](https://github.com/tschaub))
+ * [#513](https://github.com/tschaub/gh-pages/pull/513) - Bump chai from 4.3.7 to 4.3.8 ([@tschaub](https://github.com/tschaub))
+ * [#515](https://github.com/tschaub/gh-pages/pull/515) - Bump actions/checkout from 3 to 4 ([@tschaub](https://github.com/tschaub))
+ * [#516](https://github.com/tschaub/gh-pages/pull/516) - Bump eslint from 8.46.0 to 8.49.0 ([@tschaub](https://github.com/tschaub))
+
+## v6.0.0
+
+This release drops support for Node 14.  Otherwise, there are no special upgrade considerations.
+
+ * [#507](https://github.com/tschaub/gh-pages/pull/507) - Dependency updates and drop Node 14 ([@tschaub](https://github.com/tschaub))
+ * [#495](https://github.com/tschaub/gh-pages/pull/495) - Bump sinon from 15.0.3 to 15.2.0 ([@tschaub](https://github.com/tschaub))
+ * [#500](https://github.com/tschaub/gh-pages/pull/500) - Bump semver from 6.3.0 to 6.3.1 ([@tschaub](https://github.com/tschaub))
+ * [#506](https://github.com/tschaub/gh-pages/pull/506) - Bump eslint from 8.38.0 to 8.46.0 ([@tschaub](https://github.com/tschaub))
+ * [#505](https://github.com/tschaub/gh-pages/pull/505) - Bump word-wrap from 1.2.3 to 1.2.5 ([@tschaub](https://github.com/tschaub))
+ * [#504](https://github.com/tschaub/gh-pages/pull/504) - Add error message when --dist is not specified. ([@domsleee](https://github.com/domsleee))
+ * [#473](https://github.com/tschaub/gh-pages/pull/473) - Bump fs-extra from 8.1.0 to 11.1.1 ([@tschaub](https://github.com/tschaub))
+ * [#477](https://github.com/tschaub/gh-pages/pull/477) - Bump eslint from 8.32.0 to 8.38.0 ([@tschaub](https://github.com/tschaub))
+ * [#474](https://github.com/tschaub/gh-pages/pull/474) - Bump sinon from 15.0.1 to 15.0.3 ([@tschaub](https://github.com/tschaub))
+ * [#440](https://github.com/tschaub/gh-pages/pull/440) - Update readme.md ([@harveer07](https://github.com/harveer07))
+
+## v5.0.0
+
+Potentially breaking change: the `publish` method now always returns a promise.  Previously, it did not return a promise in some error cases.  This should not impact most users.
+
+Updates to the development dependencies required a minimum Node version of 14 for the tests.  The library should still work on Node 12, but tests are no longer run in CI for version 12.  A future major version of the library may drop support for version 12 altogether.
+
+ * [#438](https://github.com/tschaub/gh-pages/pull/438) - Remove quotation marks ([@Vicropht](https://github.com/Vicropht))
+ * [#459](https://github.com/tschaub/gh-pages/pull/459) - Bump async from 2.6.4 to 3.2.4 ([@tschaub](https://github.com/tschaub))
+ * [#454](https://github.com/tschaub/gh-pages/pull/454) - Bump email-addresses from 3.0.1 to 5.0.0 ([@tschaub](https://github.com/tschaub))
+ * [#455](https://github.com/tschaub/gh-pages/pull/455) - Bump actions/setup-node from 1 to 3 ([@tschaub](https://github.com/tschaub))
+ * [#453](https://github.com/tschaub/gh-pages/pull/453) - Bump actions/checkout from 2 to 3 ([@tschaub](https://github.com/tschaub))
+ * [#445](https://github.com/tschaub/gh-pages/pull/445) - Update README to clarify project site configuration requirements with tools like CRA, webpack, Vite, etc. ([@Nezteb](https://github.com/Nezteb))
+ * [#452](https://github.com/tschaub/gh-pages/pull/452) - Assorted updates ([@tschaub](https://github.com/tschaub))
+
+## v4.0.0
+
+This release doesn't include any breaking changes, but due to updated development dependencies, tests are no longer run on Node 10.
+
+ * [#432](https://github.com/tschaub/gh-pages/pull/432) - Updated dev dependencies and formatting ([@tschaub](https://github.com/tschaub))
+ * [#430](https://github.com/tschaub/gh-pages/pull/430) - Bump ansi-regex from 3.0.0 to 3.0.1 ([@tschaub](https://github.com/tschaub))
+ * [#431](https://github.com/tschaub/gh-pages/pull/431) - Bump path-parse from 1.0.6 to 1.0.7 ([@tschaub](https://github.com/tschaub))
+ * [#427](https://github.com/tschaub/gh-pages/pull/427) - Bump async from 2.6.1 to 2.6.4 ([@tschaub](https://github.com/tschaub))
+ * [#423](https://github.com/tschaub/gh-pages/pull/423) - Bump minimist from 1.2.5 to 1.2.6 ([@tschaub](https://github.com/tschaub))
+
+
 ## v3.2.3
 
  * [#398](https://github.com/tschaub/gh-pages/pull/398) - Update glob-parent ([@tschaub](https://github.com/tschaub))

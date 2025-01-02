@@ -1,6 +1,7 @@
-const helper = require('../helper');
-const ghPages = require('../../lib/');
 const path = require('path');
+const {beforeEach, describe, it} = require('mocha');
+const ghPages = require('../../lib/index.js');
+const helper = require('../helper.js');
 
 const fixtures = path.join(__dirname, 'fixtures');
 const fixtureName = 'beforeAdd';
@@ -10,12 +11,12 @@ beforeEach(() => {
 });
 
 describe('the beforeAdd option', () => {
-  it('runs a provided async function before adding files', done => {
+  it('runs a provided async function before adding files', (done) => {
     const local = path.join(fixtures, fixtureName, 'local');
     const expected = path.join(fixtures, fixtureName, 'expected');
     const branch = 'gh-pages';
 
-    helper.setupRemote(fixtureName, {branch}).then(url => {
+    helper.setupRemote(fixtureName, {branch}).then((url) => {
       const options = {
         repo: url,
         add: true,
@@ -26,10 +27,10 @@ describe('the beforeAdd option', () => {
         },
         user: {
           name: 'User Name',
-          email: 'user@email.com'
-        }
+          email: 'user@email.com',
+        },
       };
-      ghPages.publish(local, options, err => {
+      ghPages.publish(local, options, (err) => {
         if (err) {
           return done(err);
         }
